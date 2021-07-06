@@ -36,7 +36,7 @@
     font-weight: 500;
   }
   .log input[type="text"]:focus,.log input[type="password"]:focus{
-   width: 280px;
+    width: 280px;
     border-color: orange;
   }
   
