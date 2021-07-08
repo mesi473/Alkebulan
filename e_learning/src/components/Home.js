@@ -17,7 +17,7 @@ export default function Home() {
                 <h1>We Work for Better Future</h1>
             </div>
             <div className="home_image">
-                <h1>ሀ ሁ ሂ ሃ ሄ ህ ሆ</h1>
+                <h2>ሀ ሁ ሂ ሃ ሄ ህ ሆ</h2>
             </div>
             <Footer/>
             <Login/>
