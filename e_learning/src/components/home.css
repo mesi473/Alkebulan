@@ -2,3 +2,25 @@
     display: block;
     height: 100%;
 }
+.home_image{
+    position: relative;
+    height: 400px;
+    margin-top: -150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+.home_image h1{
+    color: orange;
+    padding: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.home_image img{
+    width: 40%;
+    height: 100%;
+    
+}

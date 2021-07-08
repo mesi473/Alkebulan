@@ -1,23 +1,26 @@
-.login-page{
+.register-page{
     width: 100%;
-  }
-  .log{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    box-shadow: 1px 1px 5px  rgba(0,0,0,0.3);
-    background: #ffffff;
-    width: 400px;
+}
+.register-page-area{
+    width: 800px;
     padding: 30px 20px;
     top: 60%;
     left: 50%;
     transform: translate(-50%,-50%);
-    text-align: center;
-    opacity: 0.8;
+    position: relative;
     border-radius: 10px;
+    margin-top: 70px;
     margin-bottom: 50px;
-  }
-  .log input[type="text"],.log input[type="password"]{
+    opacity: 0.8;
+    box-shadow: 1px 1px 5px  rgba(0,0,0,0.3);
+    background: #ffffff;
+}
+.register-main-page{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}   
+.register-main-page input[type="text"],.register-main-page input[type="password"]{
     border: 0;
     background: none;
     display: black;
@@ -31,17 +34,20 @@
     transition: 0.25s;
     
   }
-  .log h1{
+  .register-page-area h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: orange;
     text-transform:uppercase;
     font-weight: 500;
   }
-  .log input[type="text"]:focus,.log input[type="password"]:focus{
+  .register-main-page input[type="text"]:focus,.register-main-page input[type="password"]:focus{
     width: 280px;
     border-color: orange;
   }
   
-  .log a{
+  .register-page-area a{
       border: 0;
       background: none;
       display: block;
@@ -56,8 +62,9 @@
       transition :0.25s;
       cursor: pointer;
       text-decoration: none;
+      width: 50px;
   }
-  .log a:hover{
+  .register-page-area a:hover{
     background: orange;
     color: #ffffff; 
   }

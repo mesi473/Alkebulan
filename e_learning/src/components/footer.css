@@ -9,7 +9,7 @@
   }
   .footer{
     width: 100%;
-    height: 400px;
+    height: 200px;
     color: orange;
   }
   .copy-right p{
@@ -17,4 +17,6 @@
     justify-content: center;
     text-align: center;
     align-items: center;
+    background: #ffffff;
+    height: auto;
   }
