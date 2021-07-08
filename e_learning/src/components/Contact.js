@@ -17,6 +17,11 @@ function Contact() {
                             <input className={classes.inputs} type="text"></input>
                             <Typography>First Name</Typography> 
                             <input className={classes.inputs} type="text"></input>
+                           <Typography> Last Name</Typography>
+                           <input className={classes.inputs} type="text"></input>
+                           <Typography> Age</Typography>
+                           <input className={classes.input} type="number"></input>
+                           <input className={classes.input} type="text"></input>
                       </div>
             </Container>
         </div>
