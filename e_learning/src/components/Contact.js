@@ -10,14 +10,14 @@ function Contact() {
                          <Typography className={classes.title}>Contact Us</Typography>
                          <Typography className={classes.underTitle}>Got a question? we'd love to here from you,<br/>
                                tell us, we will respond as soon as possible.</Typography>
-                      <Paper className={classes.forms}>
+                      <div className={classes.forms}>
                             <Typography>First Name</Typography> 
                             <input className={classes.inputs} type="text"></input>
                             <Typography>First Name</Typography> 
                             <input className={classes.inputs} type="text"></input>
                             <Typography>First Name</Typography> 
                             <input className={classes.inputs} type="text"></input>
-                      </Paper>
+                      </div>
             </Container>
         </div>
     )
