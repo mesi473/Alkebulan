@@ -3,8 +3,8 @@
     src: url(../fonts/Italianno-Regular.ttf);
 }
 .about-us{
-    margin-top: -200px;
-    margin-bottom: 400px;
+    margin-top: -160px;
+    margin-bottom: 300px;
 }
 .about-main-page{
     display: flex;
@@ -16,7 +16,7 @@
 .about-main-page img{
     display: flex;
     flex-direction: column;
-    box-shadow: 0px 0px 5px  rgba(0,0,0,0.3);
+    box-shadow: 1px 1px 5px  rgba(0,0,0,0.3);
     width: 400px;
     height: 400px;
     padding: 30px 20px; 
@@ -28,23 +28,104 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: orange;
 }
 .about-description{
     width: 420px;
     height: 400px;
-    background: #fffdfd;
+    background: rgba(0,0,0,0.05);
     padding: 20px;
     text-align: start;
     color: orange;
     font-family: Myfont;
     font-size: 27px;
-    opacity: 1;
 }
 
-  .contact{
-    margin-top: 100px;
-      
+/* contact us page */
+
+
+
+  
+  .log2{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 5px  rgba(0,0,0,0.3);
+    background: #ffffff;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    opacity: 0.7;
+    position: relative;
   }
+  .log2 input[type="text"],.log2 input[type="email"]{
+    border: 0;
+    background: none;
+    display: black;
+    margin:20px auto;
+    text-align: center;
+    border: 2px solid orange ;
+    padding: 14px 10px;
+    outline: none;
+    color: black;
+    border-radius: 60px;
+    transition: 0.25s;
+    
+  }
+  textarea{
+    border: 0;
+    background: none;
+    display: black;
+    margin:20px auto;
+    text-align: center;
+    border: 2px solid orange ;
+    padding: 14px 10px;
+    outline: none;
+    color: orange;
+    border-radius: 10px;
+    transition: 0.25s;
+  }
+  .log2 h1{
+    color: orange;
+    text-transform:uppercase;
+    font-weight: 500;
+  }
+  .log2 input[type="text"]:focus,.log2 input[type="email"]:focus{
+    width: 280px;
+    border-color: orange;
+  }
+  
+  .log2 button{
+      border: 0;
+      background: none;
+      display: block;
+      margin: 20px auto;
+      text-align: center;
+      border: 2px solid orange;
+      padding: 14px 40px;
+      outline: none;
+      color: black;
+      border-radius: 24px;
+      transition:24px;
+      transition :0.25s;
+      cursor: pointer;
+      text-decoration: none;
+  }
+  .log2 button:hover{
+    background: orange; 
+  }
+
+
+  .contact{
+      display: flex;
+      margin-top: -190px;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 300px;
+  }
+  .login-area2{
+    display: flex;
+    flex-direction: row;
+    }
   .contact-us{
       display: flex;
       flex-direction: row;
@@ -53,24 +134,20 @@ h1{
       text-align: center;
   }
   .contact-info{
-    background: rgb(96, 163, 185);
-    width: 400px;
-    height: 600px;
+    background: #d6d6d6;
     display: flex;
     flex-direction: column;
-    position: relative;
-    box-shadow: 1px 1px 5px  rgba(0,0,0,0.3);
-    padding: 30px 20px;
     text-align: center;
     opacity: 0.9;
-    padding: 30px 20px;
-    color: #ffffff;
+    color: orange;
     font-family: Myfont;
     font-size: 30px;
+    padding: 40px;
   }
   .login-page{
 
   }
+  
   
 @media(max-width:900px){
     .contact-us{

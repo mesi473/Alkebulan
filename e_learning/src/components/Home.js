@@ -9,6 +9,7 @@ import Image2 from '../images/PngItem_2253743.png';
 import About from './About';
 import Contact from './Contact';
 
+
 export default function Home() {
     return (
         <div>
@@ -17,6 +18,7 @@ export default function Home() {
                 <Route path="/login" exact component={Login}/>
                 <Route path="/register" exact component={Register}/>
                 <Route path="/about" exact component={About}/>
+                <Route path="/contact" exact component={Contact}/>
                 <div className="home_image">
                     <img src={Image2} alt=""/>
                     <h1>We Work for Better Future</h1>
