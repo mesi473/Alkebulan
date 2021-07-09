@@ -1,6 +1,6 @@
 import React from 'react'
 import useStyles from './ContactStyle'
-import { Container,Paper,Typography,Input,InputLabel,FormControl } from '@material-ui/core';
+import { Container,Typography,Button } from '@material-ui/core';
 
 function Contact() {
     const classes=useStyles();
@@ -11,12 +11,15 @@ function Contact() {
                          <Typography className={classes.underTitle}>Got a question? we'd love to here from you,<br/>
                                tell us, we will respond as soon as possible.</Typography>
                       <div className={classes.forms}>
-                            <Typography>First Name</Typography> 
+                            <Typography className={classes.underTitle2}>First Name</Typography> 
                             <input className={classes.inputs} type="text"></input>
-                            <Typography>First Name</Typography> 
+                            <Typography className={classes.underTitle2}>Last Name</Typography> 
                             <input className={classes.inputs} type="text"></input>
-                            <Typography>First Name</Typography> 
+                            <Typography className={classes.underTitle2}>Email</Typography> 
                             <input className={classes.inputs} type="text"></input>
+                            <Typography className={classes.underTitle2}>Message</Typography> 
+                            <input multiple className={classes.message} type="text"></input><br/>
+                            <Button type="submit"className={classes.submitButton}>Send message</Button>
                       </div>
             </Container>
         </div>
