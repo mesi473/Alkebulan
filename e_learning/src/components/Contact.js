@@ -17,9 +17,17 @@ function Contact() {
                             <input className={classes.inputs} type="text"></input>
                             <Typography className={classes.underTitle2}>Email</Typography> 
                             <input className={classes.inputs} type="text"></input>
+<<<<<<< HEAD
                             <Typography className={classes.underTitle2}>Message</Typography> 
                             <input  className={classes.inputs1} type="text"></input><br/>
                             <Button  variant='contained' type="submit"className={classes.submitButton}>Send message</Button>
+=======
+                           <Typography> Last Name</Typography>
+                           <input className={classes.inputs} type="text"></input>
+                           <Typography> Age</Typography>
+                           <input className={classes.input} type="number"></input>
+                           <input className={classes.input} type="text"></input>
+>>>>>>> 6cf1fc6c60310f9340b18a677b68f5b542fd4d37
                       </div>
             </Container>
         </div>

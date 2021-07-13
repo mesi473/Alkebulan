@@ -1,7 +1,7 @@
 
 .footer-section{
     display: grid;
-    background: #ffffff;
+    background: blue;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
   .footer-section-item{
@@ -10,7 +10,7 @@
   .footer{
     width: 100%;
     height: 400px;
-    color: orange;
+    color: rgb(243,125,50);
   }
   .copy-right p{
     display: flex;
