@@ -15,9 +15,22 @@ function App() {
     <BrowserRouter>
        
       <div className="app">
+<<<<<<< HEAD
         <Route path="/" component={Home}/>
         <Route path='/register' component={Register}/>
      </div>
+=======
+       <Header/>
+        <Switch>
+          <Route path="/" component={Home} exact/>
+          <Route path="/contact" exact>
+            <Contact/>
+          </Route>
+        </Switch>
+        <Footer/>
+      </div>
+      
+>>>>>>> 8e99e089d97cdd49a3e2d9fbe3890f29d4ec9359
     </BrowserRouter>
   );
 }
