@@ -4,3 +4,15 @@
   overflow-x: hidden;
   background:blue ;
 }
+
+App {
+  text-align: center;
+}
+
+.red {
+  color: red;
+}
+
+.bold {
+  font-weight: bold;
+}
