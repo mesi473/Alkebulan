@@ -18,8 +18,8 @@ function Contact() {
                             <Typography className={classes.underTitle2}>Email</Typography> 
                             <input className={classes.inputs} type="text"></input>
                             <Typography className={classes.underTitle2}>Message</Typography> 
-                            <input multiple className={classes.message} type="text"></input><br/>
-                            <Button type="submit"className={classes.submitButton}>Send message</Button>
+                            <input  className={classes.inputs1} type="text"></input><br/>
+                            <Button  variant='contained' type="submit"className={classes.submitButton}>Send message</Button>
                       </div>
             </Container>
         </div>
